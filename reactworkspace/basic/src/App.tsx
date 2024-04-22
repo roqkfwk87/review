@@ -1,7 +1,19 @@
-
 import React from 'react';
 import './App.css';
-
+import Component from './component/Component';
+import Sample from './component/Sample';
+import SignInContainer from './component/example/SingnlnContainer';
+import CurlyBraces from './component/CurlyBraces';
+import Properties from './component_manage/Peoperties';
+import SignUpContainer from './component_manage/example/SignUpContainer';
+import ConditionalRendering from './component_manage/ConditionalRendering';
+import ListRendering from './component_manage/ListRendering';
+import EventComponent from './interaction/EventComponent';
+import StateComponent from './interaction/StateComponent';
+import ForwordingStateComponent from './interaction/ForwordingStateComponent';
+import HookComponent1 from './hook/HookComponent1';
+import HookComponent2 from './hook/HookComponent2';
+import CustomHook from './hook/CustomHook';
 
 // JSX / TSX : 
 // JSX (JavaScript XML) / TSX (TypeScript XML)
@@ -64,10 +76,24 @@ function FunctionComponent () {
 //   )
 // }
 
-// App은 실행할 파일명으로 지정
 function App() {
   return (
     <>
+      {/* <Component /> */}
+      {/* <ConditionalRendering /> */}
+      {/* <ListRendering /> */}
+      <Properties />
+      {/* <ClassComponent />
+      <FunctionComponent /> */}
+      {/* <Sample />  */}
+      {/* <SignUpContainer /> */}
+      {/* <CurlyBraces /> */}
+      {/* <EventComponent /> */}
+      {/* <StateComponent /> */}
+      {/* <ForwordingStateComponent /> */}
+      {/* <HookComponent1 /> */}
+      {/* <HookComponent2 /> */}
+      {/* <CustomHook /> */}
     </>
   );
 }
