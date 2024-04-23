@@ -82,7 +82,8 @@ function App() {
       {/* <Component /> */}
       {/* <ConditionalRendering /> */}
       {/* <ListRendering /> */}
-      <Properties />
+      {/* <Properties /> */}
+      <CustomHook />
       {/* <ClassComponent />
       <FunctionComponent /> */}
       {/* <Sample />  */}
@@ -93,7 +94,6 @@ function App() {
       {/* <ForwordingStateComponent /> */}
       {/* <HookComponent1 /> */}
       {/* <HookComponent2 /> */}
-      {/* <CustomHook /> */}
     </>
   );
 }
