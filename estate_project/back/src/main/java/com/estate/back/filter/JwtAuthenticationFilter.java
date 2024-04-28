@@ -109,5 +109,4 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter  {
         String token = authorization.substring(7);
         return token;
     }
-
 }
